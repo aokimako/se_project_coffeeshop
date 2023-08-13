@@ -30,5 +30,8 @@
 }
 
 .card__list-divider {
-  border-bottom: 3px solid black;
+  display: inline-block; /* inline-block adds height and width */
+  width: 290px;
+  height: 1px;
+  background-color: black; /* underline color */
 }
