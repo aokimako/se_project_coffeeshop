@@ -6,7 +6,7 @@
 }
 
 .footer__content {
-  margin: 0px;
+  margin: 0px 0px 108px;
   padding: 0px;
   display: flex;
   justify-content: space-between;
@@ -41,6 +41,10 @@
   justify-content: space-between;
 }
 
+.footer__list-item:last-child {
+  margin: 0px;
+}
+
 .footer__social-link {
   text-decoration: none;
   color: #fff;
@@ -58,4 +62,5 @@
 .footer__copyright {
   font-size: 16px;
   line-height: 20px;
+  margin: 0px;
 }
