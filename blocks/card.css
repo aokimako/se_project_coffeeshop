@@ -1,5 +1,5 @@
 .card {
-  margin: 0px;
+  margin: 0;
   width: 540px;
 }
 
@@ -11,8 +11,8 @@
 }
 
 .card__list {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .card__list-item {
@@ -31,6 +31,7 @@
 
 .card__list-divider {
   display: inline-block; /* inline-block adds height and width */
-  flex-grow: 1;
-  border-bottom: solid black;
+  flex-grow: 0.95;
+  /* there's a small gap betweeen a menu item and its price */
+  border-bottom: 1px solid black;
 }

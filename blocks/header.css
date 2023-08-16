@@ -1,4 +1,5 @@
 .header {
+  box-sizing: border-box;
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -10,14 +11,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: -1;
+  z-index: 1;
+  position: relative;
 }
 
 .header__title {
   max-width: 729px;
   margin: 183px 0px 0px;
   font-family: "Inter", Arial, "sans-serif";
-  font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -27,7 +28,6 @@
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -38,8 +38,6 @@
   max-width: 683px;
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -50,7 +48,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__footer {
@@ -61,7 +59,6 @@
 
 .header__paragraph {
   margin: 0;
-  font-style: normal;
   font-weight: 500;
   color: #838383;
 }

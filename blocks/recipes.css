@@ -26,10 +26,10 @@
 
 .recipes__videos {
   margin-top: 80px;
+  padding: 0;
   display: flex;
   justify-content: center;
   gap: 40px;
-  border: none;
 }
 
 .recipes__iframe {
@@ -42,4 +42,7 @@
   margin: 24px 0px 0px;
   display: flex;
   justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
